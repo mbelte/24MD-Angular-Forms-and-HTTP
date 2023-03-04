@@ -1,4 +1,4 @@
-# JSON-server
+## JSON-server
 
 Run `json-server --watch db.json` to start json-server
 
