@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { AnimalType } from 'src/app/services/animals.service';
 
 @Component({
   selector: 'app-animal-list',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AnimalListComponent {
 
+  @Input() animals: AnimalType[]
+  @Output() deleteEvent: EventEmitter<string> = new EventEmitter();
+
+  deleteHandler(id: string) {
+    this.deleteEvent.emit(id)
+  }
 }

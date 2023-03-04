@@ -1,0 +1,25 @@
+.container {
+    background-color: var(--c-dark);
+    border-radius: 3px;
+    max-width: 800px;
+    min-width: 680px;
+    margin: 80px auto;
+    padding: 30px;
+}
+
+.header {
+    color: var(--c-white);
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Alex Brush', cursive;
+    font-size: 86px;
+    margin: 0;
+}
+
+.list-wrap {
+    border-top: 1px solid var(--c-light);
+    margin-top: 30px;
+    padding-top: 30px;
+}

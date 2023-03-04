@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-animal-list-item',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AnimalListItemComponent {
 
+  @Input() id: string
+  @Input() name: string
+  @Input() type: string
 }

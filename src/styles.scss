@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap&family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --c-text: #555555;
+    --c-pink: #ed0b70;
+    --c-pink-light: #f34e99;
+    --c-dark: #301008;
+    --c-green: #4cbfa6;
+    --c-light: #f6ebf4;
+    --c-white: #fff;
+}
+
+body {
+    background-image: url('./assets/images/background.png');
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}

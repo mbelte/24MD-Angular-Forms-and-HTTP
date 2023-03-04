@@ -1,1 +1,8 @@
-<p>animal-list works!</p>
+<div class="list">
+    <app-animal-list-item
+        *ngFor="let animal of animals"
+        [name]="animal.name"
+        [type]="animal.type"   
+        (click)="deleteHandler(animal.id)"
+    ></app-animal-list-item>
+</div>
